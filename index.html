@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Project</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+
+    form {
+        display: inline-block;
+    }    
+</style>
+
+<body>
+    <form action="/getWeather" method="post">
+        <label for="cityName"> <h2> City Name : </h2> </label>
+        <input type="text" name="cityName">
+        <br> <br>
+        <button type="submit" name="submit"> Search Weather</button>
+    </form>
+
+</body>
+
+</html>
